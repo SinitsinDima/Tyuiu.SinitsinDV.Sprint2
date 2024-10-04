@@ -14,5 +14,5 @@ namespace Tyuiu.SinitsinDV.Sprint2.Task0.V25.Lib
             res[5] = x - 120 >= y;
             return res;
         }
-    }
+    }  
 }
