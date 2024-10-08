@@ -1,5 +1,4 @@
-﻿
-using Tyuiu.SinitsinDV.Sprint2.Task0.V25.Lib;
+﻿using Tyuiu.SinitsinDV.Sprint2.Task0.V25.Lib;
 namespace Tyuiu.SinitsinDV.Sprint2.Task0.V25
 {
     internal class Program
@@ -14,7 +13,7 @@ namespace Tyuiu.SinitsinDV.Sprint2.Task0.V25
             res = ds.GetCompareOperations(x, y);
 
             Console.Title = "Спринт #1 | Выполнил: Синицин Д.В. | ПКТб-24-1";
-
+            
             Console.WriteLine("*****************************************************");
             Console.WriteLine("* Спринт #2                                         *");
             Console.WriteLine("* Тема: Операции сравнения                          *");
@@ -43,6 +42,6 @@ namespace Tyuiu.SinitsinDV.Sprint2.Task0.V25
                 Console.WriteLine(res[i]);
             }
             Console.ReadKey();
-        }      
+        }     
     }
 }

@@ -13,6 +13,7 @@ namespace Tyuiu.SinitsinDV.Sprint2.Task0.V25.Test
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);
             bool[] wait = new bool[6] { true, true, true, false, false, false };
+
             CollectionAssert.AreEqual(wait, res);
         }
     }
