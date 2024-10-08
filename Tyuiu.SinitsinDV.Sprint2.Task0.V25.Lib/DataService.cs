@@ -3,6 +3,7 @@ namespace Tyuiu.SinitsinDV.Sprint2.Task0.V25.Lib
 {
     public class DataService : ISprint2Task0V25
     {
+
         public bool[] GetCompareOperations(int x, int y)
         {
             bool[] res = new bool[6];
@@ -14,5 +15,5 @@ namespace Tyuiu.SinitsinDV.Sprint2.Task0.V25.Lib
             res[5] = x - 120 >= y;
             return res;
         }
-    }  
-}
+    }
+}    
