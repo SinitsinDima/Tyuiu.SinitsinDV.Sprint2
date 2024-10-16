@@ -5,8 +5,10 @@ namespace Tyuiu.SinitsinDV.Sprint2.Task6.V2.Lib
     {
         public string FindMonthSeason(int value)
         {
-           switch (value)
+            string res;
+            switch (value)
             {
+            
                 case 1: return "Зима";
                 case 2: return "Зима";
                 case 3: return "Весна";
@@ -19,14 +21,9 @@ namespace Tyuiu.SinitsinDV.Sprint2.Task6.V2.Lib
                 case 10: return "Осень";
                 case 11: return "Осень";
                 case 12: return "Зима";
+                default: throw new ArgumentException($"Месяц должен быть от 1 до 12. Значение {value}"); ;
 
-                
-
-
-            }
-            
-                
-            
+            }   
         }
     }
 }

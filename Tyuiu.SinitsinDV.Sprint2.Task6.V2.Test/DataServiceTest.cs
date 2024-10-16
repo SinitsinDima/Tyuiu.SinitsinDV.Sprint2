@@ -10,7 +10,7 @@ namespace Tyuiu.SinitsinDV.Sprint2.Task6.V2.Test
             DataService ds = new DataService();
             int value = 3;
             var wait = "Весна";
-            var res = ds.FindMonthSeason(value);
+            string res = ds.FindMonthSeason(value);
             Assert.AreEqual(wait, res);
         }
     }
