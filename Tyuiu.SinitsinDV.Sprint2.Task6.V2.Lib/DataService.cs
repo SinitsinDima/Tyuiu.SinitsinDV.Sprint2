@@ -5,7 +5,6 @@ namespace Tyuiu.SinitsinDV.Sprint2.Task6.V2.Lib
     {
         public string FindMonthSeason(int value)
         {
-            string res;
             switch (value)
             {
             
